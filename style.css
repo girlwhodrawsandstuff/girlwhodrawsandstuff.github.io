@@ -3,14 +3,7 @@
     padding: 0%;
 }
 
-.container {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Raleway', sans-serif;
-}
+/* navigation bar */
 
 .navbar ul {
     display: flex;
@@ -28,6 +21,18 @@
     text-decoration: none;
     color: black;
 }
+
+/* container below the navbar */
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* home section */
 
 .home {
     margin: 40px;
