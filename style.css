@@ -93,3 +93,33 @@
 .home--text {
     font-size: 24px;
 }
+
+/* footer section */
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer--email{
+    font-size: 24px;
+    margin: 10px;
+}
+
+.footer--social {
+    display: flex;
+}
+
+.footer--social li {
+    list-style: none;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.fa-arrow-circle-up {
+    font-size: 50px;
+    margin: 40px 10px;
+}
