@@ -119,6 +119,23 @@
     align-items: center;
 }
 
+/* about section */
+.about {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about__heading {
+    padding: 20px;
+}
+
+.about__description {
+    font-size: 24px;
+}
+
 /* footer section */
 .footer {
     display: flex;
