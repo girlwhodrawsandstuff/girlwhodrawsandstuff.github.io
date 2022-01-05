@@ -92,6 +92,8 @@
 
 .home__text {
     font-size: 24px;
+    width: 70%;
+    text-align: center;
 }
 
 /* projects section */
@@ -134,6 +136,7 @@
 
 .about__description {
     font-size: 24px;
+    width: 50%;
 }
 
 /* footer section */
