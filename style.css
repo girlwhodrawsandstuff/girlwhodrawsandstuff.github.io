@@ -32,13 +32,9 @@
     padding: 20px 40px;
 }
 
-.navbar ul li a {
-    color: var(--light-gray);
-}
-
 .link {
     text-decoration: none;
-    color: black;
+    color: var(--light-gray);
 }
 
 /* container below the navbar */
