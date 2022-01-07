@@ -139,6 +139,7 @@
     align-items: center;
 }
 
+
 /* about section */
 .about {
     display: flex;
@@ -148,7 +149,11 @@
 }
 
 .about__heading {
-    padding: 20px;
+    margin: 20px;
+}
+
+.projects__heading:hover, .about__heading:hover {
+    border-bottom: 1px solid var(--light-gray);
 }
 
 .about__description {
