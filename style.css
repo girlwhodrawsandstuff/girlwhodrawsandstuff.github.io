@@ -249,6 +249,9 @@
   list-style: none;
   padding: 10px;
   font-size: 30px;
+}
+
+.footer__social li a {
   color: var(--tile3);
 }
 
