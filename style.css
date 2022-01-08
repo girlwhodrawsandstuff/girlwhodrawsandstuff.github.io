@@ -167,27 +167,9 @@
     .waves-bottom {
         background-image: url(/images/waves-bottom.svg);
     }
-.custom-shape-divider-bottom-1641559092 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 89px;
-  transform: rotateY(180deg);
-}
 
-.custom-shape-divider-bottom-1641559092 .shape-fill {
-  fill: #1b1b1b;
-}
-
-.custom-shape-divider-bottom-1641558964 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 52px;
-}
-
-.custom-shape-divider-bottom-1641558964 .shape-fill {
-  fill: #1b1b1b;
+.svg-item {
+  filter: brightness(0) invert(1);
 }
 
 /* about section */
