@@ -130,7 +130,8 @@
 .projects__container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 350px
+  grid-template-rows: 350px;
+  align-items: flex-start;
 }
 
 .projects__heading {
@@ -172,6 +173,10 @@
 
 .svg-item {
   filter: brightness(0) invert(1);
+}
+
+.projects__container--item h3 {
+  padding: 10px;
 }
 
 .projects__container--item p {
