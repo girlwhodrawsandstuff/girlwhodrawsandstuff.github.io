@@ -129,12 +129,12 @@
 
 .projects__container {
   display: grid;
-  grid-template-columns: 200px 200px 200px 200px;
-  grid-template-rows: 400px
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 350px
 }
 
 .projects__heading {
-  margin: 20px;
+  margin-top: 20px;
 }
 
 .projects:before,
@@ -142,7 +142,7 @@
   box-sizing: inherit;
 }
 
-/* projects wave */
+  /* projects wave */
     /* top */
     .spacer {
         aspect-ratio: 1000/150;
@@ -166,10 +166,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  margin: 20px 50px;
 }
 
 .svg-item {
   filter: brightness(0) invert(1);
+}
+
+.projects__container--item p {
+  text-align: justify;
 }
 
 /* about section */
