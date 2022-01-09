@@ -163,23 +163,25 @@
         background-image: url(/images/waves-bottom.svg);
     }
 
-.projects__container--item {
+.projects__container--item a {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 20px 50px;
+  color: var(--light-gray);
+  text-decoration: none;
 }
 
 .svg-item {
   filter: brightness(0) invert(1);
 }
 
-.projects__container--item h3 {
+.projects__container--item a h3 {
   padding: 10px;
 }
 
-.projects__container--item p {
+.projects__container--item a p {
   text-align: justify;
 }
 
