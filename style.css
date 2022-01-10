@@ -132,10 +132,12 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 350px;
   align-items: flex-start;
+  margin-bottom: 20px;
 }
 
 .projects__heading {
   margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .projects:before,
@@ -162,6 +164,16 @@
     .waves-bottom {
         background-image: url(/images/waves-bottom.svg);
     }
+
+.projects__container--item {
+  height: 100%;
+  transition: 1s;
+}
+
+.projects__container--item:hover {
+  background-color: var(--tile2);
+  border-radius: 10px;
+}
 
 .projects__container--item a {
   display: flex;
