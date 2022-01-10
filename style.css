@@ -276,6 +276,16 @@
   color: var(--tile3);
 }
 
+@media all and (max-width: 1200px) {
+  .projects__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+}
+
 @media all and (max-width: 684px) {
   .home__heading {
     display: flex;
