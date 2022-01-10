@@ -283,6 +283,15 @@
     align-items: center;
   }
 
+  .projects__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .projects__container--item {
+    width: 100%;
+  }
+
   .about__description {
     font-size: 20px;
     text-align: center;
