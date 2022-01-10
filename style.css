@@ -138,6 +138,8 @@
 .projects__heading {
   margin-top: 20px;
   margin-bottom: 30px;
+  border-bottom: 1px solid var(--tile1);
+  transition: 1s;
 }
 
 .projects:before,
@@ -209,6 +211,8 @@
 .about__heading {
   margin: 20px;
   margin-top: 40px;
+  border-bottom: 1px solid var(--bg-color);
+  transition: 1s;
 }
 
 .projects__heading:hover,
