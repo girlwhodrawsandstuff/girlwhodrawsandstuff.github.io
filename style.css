@@ -76,7 +76,6 @@
   display: flex;
   flex-wrap: wrap;
   padding: 30px 0px;
-  font-size: 80px;
 }
 
 .home__heading--set {
@@ -84,7 +83,7 @@
 }
 
 .home__heading--name {
-  font-size: 90px;
+  font-size: 10vw;
 }
 
 .tiles {
@@ -303,6 +302,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .home__heading--name {
+    font-size: 13vw;
   }
 
   .projects__container {
