@@ -31,6 +31,11 @@
 
 .navbar ul li {
   padding: 20px 40px;
+  transition: 0.5s;
+}
+
+.navbar ul li:hover {
+  background-color: var(--tile2);
 }
 
 .link {
