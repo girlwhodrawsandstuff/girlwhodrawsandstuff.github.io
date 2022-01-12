@@ -43,7 +43,7 @@
 
 .fa-bars {
   position: absolute;
-  top: 1.4rem;
+  top: 1.3rem;
   right: 2rem;
   color: var(--light-gray);
   font-size: 28px;
@@ -328,7 +328,7 @@
   }
 
   .navbar ul li {
-    padding: 20px 40px;
+    padding: 15px 0px;
   }
 
 
