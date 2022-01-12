@@ -27,20 +27,27 @@
   font-size: 24px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-}
-
-.navbar ul li {
-  padding: 20px 40px;
-  transition: 0.5s;
-}
-
-.navbar ul li:hover {
-  background-color: var(--tile2);
+  padding: 20px;
 }
 
 .link {
   text-decoration: none;
   color: var(--light-gray);
+  padding: 20px 40px;
+  transition: 0.5s;
+}
+
+.link:hover {
+  background-color: var(--tile2);
+}
+
+.fa-bars {
+  position: absolute;
+  top: 1.4rem;
+  right: 2rem;
+  color: var(--light-gray);
+  font-size: 28px;
+  display: none;
 }
 
 /* container below the navbar */
@@ -312,5 +319,20 @@
     font-size: 18px;
     line-height: 30px;
     width: 70%;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .link {
+    display: none;
+  }
+
+  .navbar ul li {
+    padding: 20px 40px;
+  }
+
+
+  .fa-bars {
+    display: flex;
   }
 }
