@@ -342,13 +342,20 @@
   .link {
     width: 100%;
     padding: 0%;
-    display: none;
   }
   .link:hover {
     background-color: unset;
   }
 
   .fa-bars {
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+  }
+
+  .navbar-links.active {
     display: flex;
   }
 }
