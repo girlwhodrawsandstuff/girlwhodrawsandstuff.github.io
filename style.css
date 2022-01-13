@@ -386,8 +386,9 @@
 }
 
 .company__position {
-  font-size: 16px;
+  font-size: 18px;
   padding: 10px 0px;
+  color: var(--tile3)
 }
 
 .company__description {
