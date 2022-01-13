@@ -364,3 +364,9 @@
     display: flex;
   }
 }
+
+/*------------ RESUME PAGE ------------*/
+.work-experience__heading {
+  text-align: center;
+  padding: 20px;
+}
