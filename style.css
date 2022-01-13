@@ -366,18 +366,18 @@
 }
 
 /*------------ RESUME PAGE ------------*/
+/* work experience */
 .work-experience {
-  padding: 0px 100px;
+  width: 100%;
   margin-bottom: 40px;
 }
 
 .work-experience__heading {
   text-align: center;
-  padding: 20px;
 }
 
 .company {
-  padding: 20px;
+  text-align: left
 }
 
 .company__name {
@@ -395,6 +395,8 @@
   font-size: 24px;
 }
 
+/* certifications */
 .certifications {
+  width: 100%;
   margin-bottom: 40px;
 }
