@@ -366,6 +366,10 @@
 }
 
 /*------------ RESUME PAGE ------------*/
+.resume-container {
+  padding: 80px;
+}
+
 /* work experience */
 .work-experience {
   width: 100%;
