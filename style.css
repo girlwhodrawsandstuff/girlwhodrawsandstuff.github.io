@@ -424,3 +424,14 @@
 .list-items {
   list-style-type: none;
 }
+
+/* education */
+.education__university {
+  font-size: 28px;
+  padding: 10px 0px;
+}
+
+.course__description {
+  padding: 10px 0px;
+  font-size: 24px;
+}
