@@ -463,3 +463,14 @@
   font-size: 16px;
   padding-top: 10px;
 }
+
+/* hobbies */
+.hobbies__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hobbies__list--item {
+  padding: 20px;
+}
