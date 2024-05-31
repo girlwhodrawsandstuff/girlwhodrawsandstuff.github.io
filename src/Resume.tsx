@@ -6,17 +6,17 @@ export default function Resume() {
       <div className="navbar" id="page-top">
         <ul>
           <li>
-            <a className="link" href="/index.html#homes-section">
+            <a className="link" href="/">
               Home
             </a>
           </li>
           <li>
-            <a className="link" href="/index.html#projects-section">
+            <a className="link" href="/">
               Projects
             </a>
           </li>
           <li>
-            <a className="link" href="/index.html#about-section">
+            <a className="link" href="/">
               About
             </a>
           </li>
