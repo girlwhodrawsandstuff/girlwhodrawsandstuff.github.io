@@ -173,13 +173,13 @@
 }
 
 .waves-top {
-  background-image: url(/images/waves-top.svg);
+  background-image: url(src/assets/waves-top.svg);
 }
 
 /* bottom */
 
 .waves-bottom {
-  background-image: url(/images/waves-bottom.svg);
+  background-image: url(src/assets/waves-bottom.svg);
 }
 
 .projects__container--item {

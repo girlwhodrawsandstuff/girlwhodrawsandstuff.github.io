@@ -49,7 +49,7 @@ function App() {
       <div className="projects__container">
         <div className="projects__container--item">
           <a href="https://github.com/girlwhodrawsandstuff/day-planner">
-            <img src="/images/Planner.svg" className="svg-item" />
+            <img src="src/assets/Planner.svg" className="svg-item" />
             <h3>Day Planner</h3>
             <p>
               This program implemented in Flask (python) for the backend and
@@ -62,7 +62,7 @@ function App() {
           <a
             href="https://github.com/girlwhodrawsandstuff/JavaScript-Dice-Game"
           >
-            <img src="/images/Dice.svg" className="svg-item" />
+            <img src="src/assets/Dice.svg" className="svg-item" />
             <h3>Dice Game</h3>
             <p>A simple dice game implemented using HTML, CSS and JavaScript</p>
           </a>
@@ -71,7 +71,7 @@ function App() {
           <a
             href="https://github.com/girlwhodrawsandstuff/react-expense-tracker-no-server"
           >
-            <img src="/images/Expense.svg" className="svg-item" />
+            <img src="src/assets/Expense.svg" className="svg-item" />
             <h3>Expense Tracker</h3>
             <p>
               A ReactJS project to implement an expense tracker without a
@@ -82,7 +82,7 @@ function App() {
         </div>
         <div className="projects__container--item">
           <a href="https://github.com/girlwhodrawsandstuff/react-mini-blog">
-            <img src="/images/Blog.svg" className="svg-item" />
+            <img src="src/assets/Blog.svg" className="svg-item" />
             <h3>Mini-Blog</h3>
             <p>
               A React JS blog made to learn about concepts such as creating
@@ -97,7 +97,7 @@ function App() {
 
     <div className="about" id="about-section">
       <h1 className="about__heading">About Me</h1>
-      <img className="my-image" src="images/varsha.jpg" alt="A picture of me" />
+      <img className="my-image" src="src/assets/varsha.jpg" alt="A picture of me" />
       <p className="about__description">
         I am a frontend developer based in Bangalore, India. I specialize in web
         development and small-scale projects. I'm proficient in HTML, CSS, and
