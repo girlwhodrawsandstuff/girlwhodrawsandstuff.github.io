@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import linkedinIcon from '../../assets/linkedin.svg';
-import githubIcon from '../../assets/linkedin.svg';
-import instagramIcon from '../../assets/linkedin.svg';
+import githubIcon from '../../assets/github.svg';
+import instagramIcon from '../../assets/instagram.svg';
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
