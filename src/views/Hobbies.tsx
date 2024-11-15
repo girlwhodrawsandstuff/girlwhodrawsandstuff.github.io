@@ -1,5 +1,5 @@
 const Hobbies = () => {
-  return <div>Hobbies</div>;
+  return <div className="px-14 py-6">Hobbies</div>;
 };
 
 export default Hobbies;
