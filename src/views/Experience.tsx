@@ -1,4 +1,4 @@
-const Resume = () => {
+const Experience = () => {
   const experience = [
     {
       company: 'Razorpay',
@@ -67,4 +67,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default Experience;

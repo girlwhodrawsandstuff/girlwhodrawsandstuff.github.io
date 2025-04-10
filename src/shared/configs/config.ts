@@ -1,5 +1,5 @@
 export const appConfig = {
   header: {
-    categories: ["Portfolio", "Hobbies", "Resume"],
+    categories: ['Portfolio', 'Hobbies', 'Experience'],
   },
 };
