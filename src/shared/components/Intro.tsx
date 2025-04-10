@@ -8,21 +8,20 @@ const Intro = () => {
 
       <article>
         <p>
-          I build performant, scalable web applications using JavaScript, React,
-          and Angular — writing code that goes beyond the UI. I enjoy solving
-          complex problems, architecting maintainable frontends, and obsessing
-          over the details that make apps fast, accessible, and reliable.
+          I build performant, scalable web applications using JavaScript, React, and Angular —
+          writing code that goes beyond the UI. I enjoy solving complex problems, architecting
+          maintainable frontends, and obsessing over the details that make apps fast, accessible,
+          and reliable.
         </p>
 
         <p>
-          Lately, I've been exploring machine learning and generative AI—not
-          just for UI, but as powerful tools across development workflows, from
-          documentation to testing and beyond.
+          Lately, I've been exploring machine learning and generative AI which I can leverage as
+          powerful tools across development workflows, from documentation to testing and beyond.
         </p>
 
         <p>
-          When I'm not coding, I'm probably making something cutsie with polymer
-          clay, crocheting, or befriending every cat and dog I meet!
+          When I'm not coding, I'm probably making something cutsie with polymer clay, crocheting,
+          or befriending every cat and dog I meet!
         </p>
       </article>
     </>
