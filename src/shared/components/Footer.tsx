@@ -12,7 +12,7 @@ export const Footer = () => {
         <Link to='https://github.com/girlwhodrawsandstuff'><img className="w-12 cursor-pointer" src={githubIcon}></img></Link>
         <Link to='https://www.instagram.com/madebyvorshe/'><img className="w-12 cursor-pointer" src={instagramIcon}></img></Link>
       </section>
-      <small className="pt-3">©Varsha Singh {currentYear}</small>
+      <small className="pt-3">©Varsha S {currentYear}</small>
     </footer>
   );
 };
