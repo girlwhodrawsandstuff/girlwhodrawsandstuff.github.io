@@ -8,7 +8,7 @@ export const Footer = () => {
   return (
     <footer className="px-14 py-6 100dvw flex flex-col items-center justify-center">
       <section className="flex">
-        <Link to='https://www.linkedin.com/in/varshasingh97/'><img className="w-12 cursor-pointer" src={linkedinIcon}></img></Link>
+        <Link to='https://www.linkedin.com/in/varshas97/'><img className="w-12 cursor-pointer" src={linkedinIcon}></img></Link>
         <Link to='https://github.com/girlwhodrawsandstuff'><img className="w-12 cursor-pointer" src={githubIcon}></img></Link>
         <Link to='https://www.instagram.com/madebyvorshe/'><img className="w-12 cursor-pointer" src={instagramIcon}></img></Link>
       </section>
