@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { Logo } from '../../../common/components/Logo';
+import closeIcon from '../../../assets/close.svg';
 
 interface SidebarHeaderProps {
   onClose: () => void;
@@ -21,7 +22,7 @@ export const SidebarHeader = ({ onClose }: SidebarHeaderProps) => {
         className="p-2 rounded-md hover:bg-gray-100 transition-colors duration-200"
         aria-label="Close menu"
       >
-        <img src="src/assets/close.svg" alt="close" className="w-5" />
+        <img src={closeIcon} alt="close" className="w-5" />
       </button>
     </div>
   );

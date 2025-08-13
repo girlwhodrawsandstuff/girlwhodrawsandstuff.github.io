@@ -1,8 +1,10 @@
-import { ReactNode } from 'react';
+import { ReactNode, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { appConfig } from '../configs/config';
 import { Link } from 'react-router-dom';
 import { Logo } from '../../common/components/Logo';
+import hamburger from '../../assets/hamburger.svg';
+import realHamburger from '../../assets/real-hamburger.svg';
 
 interface HeaderProps {
   onMenuToggle: () => void;
@@ -11,9 +13,14 @@ interface HeaderProps {
 export const Header = ({ onMenuToggle }: HeaderProps) => {
   const { categories } = appConfig.header;
   const navigate = useNavigate();
+  const [isHovered, setIsHovered] = useState(false);
 
   const handleLogoClick = () => {
     navigate('/');
+  };
+
+  const handleHamburgerHover = () => {
+    setIsHovered(!isHovered);
   };
 
   return (
@@ -35,12 +42,14 @@ export const Header = ({ onMenuToggle }: HeaderProps) => {
       <button
         className="cursor-pointer block md:hidden p-2 rounded-md hover:bg-stone-100 transition-colors duration-200"
         onClick={onMenuToggle}
+        onMouseEnter={() => handleHamburgerHover()}
+        onMouseLeave={() => handleHamburgerHover()}
         aria-label="Open menu"
       >
-        <div
-          className="w-6 h-6 bg-[url('src/assets/hamburger.svg')] hover:bg-[url('src/assets/real-hamburger.svg')] bg-no-repeat bg-center bg-contain transition-all duration-200"
-          role="img"
-          aria-label="hamburger menu"
+        <img
+          src={isHovered ? realHamburger : hamburger}
+          alt="hamburger menu"
+          className="w-6 h-6 transition-all duration-200"
         />
       </button>
     </header>
