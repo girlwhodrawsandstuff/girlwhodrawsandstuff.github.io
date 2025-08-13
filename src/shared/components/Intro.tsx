@@ -4,7 +4,7 @@ const Intro = () => {
       <section>
         <h1>Hi, I'm Varsha!</h1>
         <p>
-          <p>Frontend Engineer at Razorpay, based in Bangalore, India.</p>
+          <p>Senior Frontend Engineer at Razorpay, based in Bangalore, India.</p>
         </p>
 
         <article>
@@ -22,7 +22,7 @@ const Intro = () => {
 
           <p>
             When I'm not coding, I'm probably making something cutsie with polymer clay, crocheting,
-            or befriending every cat and dog I meet!
+            or spending time with my cats!
           </p>
         </article>
       </section>
