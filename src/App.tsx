@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Homepage from './views/Homepage/Homepage';
 import Portfolio from './views/Portfolio';
@@ -5,11 +6,19 @@ import Experience from './views/Experience/Experience';
 import Hobbies from './views/Hobbies/Hobbies';
 import { Header } from './layout/components/Header';
 import { Footer } from './layout/components/Footer';
+import { Sidebar } from './layout/components/Sidebar/Sidebar';
 
 const App = () => {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
+
   return (
     <>
-      <Header />
+      <Header onMenuToggle={toggleSidebar} />
+      <Sidebar isOpen={isSidebarOpen} onClose={toggleSidebar} />
       <div className="px-8 py-5 md:px-14 md:py-6">
         <Routes>
           <Route path="/" element={<Homepage />} />
