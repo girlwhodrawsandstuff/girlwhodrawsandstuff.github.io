@@ -1,4 +1,4 @@
-import Intro from "../shared/components/Intro";
+import Intro from './Intro';
 
 const Homepage = () => {
   return <Intro></Intro>;

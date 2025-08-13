@@ -1,10 +1,10 @@
 import { Route, Routes } from 'react-router-dom';
-import Homepage from './views/Homepage';
+import Homepage from './views/Homepage/Homepage';
 import Portfolio from './views/Portfolio';
-import { Footer } from './shared/components/Footer';
-import { Header } from './shared/components/Header';
 import Experience from './views/Experience/Experience';
 import Hobbies from './views/Hobbies/Hobbies';
+import { Header } from './layout/components/Header';
+import { Footer } from './layout/components/Footer';
 
 const App = () => {
   return (
