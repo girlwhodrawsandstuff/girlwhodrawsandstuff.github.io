@@ -10,12 +10,14 @@ const App = () => {
   return (
     <>
       <Header />
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/hobbies" element={<Hobbies />} />
-        <Route path="/experience" element={<Experience />} />
-      </Routes>
+      <div className="px-14 py-6">
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/hobbies" element={<Hobbies />} />
+          <Route path="/experience" element={<Experience />} />
+        </Routes>
+      </div>
       <Footer />
     </>
   );
