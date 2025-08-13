@@ -1,18 +1,18 @@
 export const experience = [
   {
     company: 'Razorpay',
+    title: 'Senior Frontend Engineer',
+    duration: 'April 2025 - Present',
+  },
+  {
+    company: 'Razorpay',
     title: 'Frontend Engineer',
-    duration: 'October 2022 - Present',
+    duration: 'October 2022 - March 2025',
   },
   {
     company: 'Razorpay',
     title: 'Frontend Engineer Intern',
     duration: 'February 2022 - September 2022',
-  },
-  {
-    company: 'Bikenbiker',
-    title: 'Software Engineer Intern',
-    duration: 'December 2021 - February 2022',
   },
   {
     company: 'Redgreen Engineering',
