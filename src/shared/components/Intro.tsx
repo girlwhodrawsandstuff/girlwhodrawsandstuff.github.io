@@ -3,9 +3,7 @@ const Intro = () => {
     <>
       <section>
         <h1>Hi, I'm Varsha!</h1>
-        <p>
-          <p>Senior Frontend Engineer at Razorpay, based in Bangalore, India.</p>
-        </p>
+        <p>Senior Frontend Engineer at Razorpay, based in Bangalore, India.</p>
 
         <article>
           <p>
