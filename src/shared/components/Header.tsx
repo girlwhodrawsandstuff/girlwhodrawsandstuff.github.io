@@ -6,7 +6,7 @@ export const Header = () => {
   const { categories } = appConfig.header;
 
   return (
-    <header className="w-dvw flex items-center justify-between lg:px-14 lg:py-6 py-4 px-3">
+    <header className="w-dvw flex items-center justify-between lg:px-14 lg:py-6 py-4 px-6">
       <a href="/" className="cursor-pointer flex items-center gap-1">
         <img src="src/assets/code.svg" alt="code icon" className="w-6" />
         <p className="font-mono text-stone-700 font-medium">
@@ -27,6 +27,13 @@ export const Header = () => {
           );
         })}
       </div>
+      <a className="cursor-pointer block md:hidden">
+        <div
+          className="w-8 h-8 bg-[url('src/assets/hamburger.svg')] hover:bg-[url('src/assets/real-hamburger.svg')] bg-no-repeat bg-center bg-contain transition-all duration-200"
+          role="img"
+          aria-label="hamburger menu"
+        />
+      </a>
     </header>
   );
 };
