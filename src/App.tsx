@@ -3,7 +3,7 @@ import Homepage from './views/Homepage';
 import Portfolio from './views/Portfolio';
 import { Footer } from './shared/components/Footer';
 import { Header } from './shared/components/Header';
-import Experience from './views/Experience';
+import Experience from './views/Experience/Experience';
 import Hobbies from './views/Hobbies/Hobbies';
 
 const App = () => {
