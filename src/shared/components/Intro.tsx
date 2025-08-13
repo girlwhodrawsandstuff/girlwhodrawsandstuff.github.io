@@ -1,11 +1,13 @@
 const Intro = () => {
   return (
     <>
-      <section>
-        <h1>Hi, I'm Varsha!</h1>
-        <p>Senior Frontend Engineer at Razorpay, based in Bangalore, India.</p>
+      <section className="flex flex-col gap-4 md:gap-8">
+        <h1 className="text-6xl font-semibold text-stone-700">Hi, I'm Varsha!</h1>
+        <p className="text-stone-700">
+          Senior Frontend Engineer at Razorpay, based in Bangalore, India.
+        </p>
 
-        <article>
+        <article className="text-stone-700 flex flex-col gap-3">
           <p>
             I build performant, scalable web applications using JavaScript, React, and Angular —
             writing code that goes beyond the UI. I enjoy solving complex problems, architecting
