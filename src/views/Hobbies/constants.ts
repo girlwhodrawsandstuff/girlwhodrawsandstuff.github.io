@@ -14,12 +14,12 @@ export const hobbiesList = [
   {
     title: 'Polymer Clay',
     image: polymerClayImg,
-    desc: 'Making miniature food, trinkets, and cat-themed charms is my jam.',
+    desc: "Miniature food, cute trinkets, and cat-themed charms are my thing. Every so often, you'll find me selling them at flea market stalls.",
   },
   {
     title: 'Painting & Art',
     image: paintingImg,
-    desc: "I'm not particularly good at painting fancy things, but I love it.",
+    desc: "I'm not particularly good at painting fancy things, but I love it. I mostly use gouche and acrylic paints.",
   },
   {
     title: 'Baking',
@@ -29,11 +29,11 @@ export const hobbiesList = [
   {
     title: 'Board Games',
     image: boardGamesImg,
-    desc: "I love playing board games with my friends. Some of my favorite board games include Takenoko, Sheriff of Nottingham, Skulls, and Azul. And yes, I've played Catan too. Lately, I also love Dungeons & Dragons — still a noob, but very committed to the lore and drama.",
+    desc: 'I love playing board games with my friends. Some of my favorite board games include Takenoko, Sheriff of Nottingham, Skulls, and Azul. I also love Dungeons & Dragons — still a noob, but very committed to the lore and drama.',
   },
   {
     title: 'Gaming',
     image: gamingImg,
-    desc: 'I play chill games like The Sims 4, Minecraft and also really chaotic games like Elden Ring. I love games that let me get lost in a world. My all-time favorite is The Witcher 3: Wild Hunt. Gaming is where I unwind, recharge, and sometimes scream at my screen.',
+    desc: 'I play chill games like The Sims 4, Minecraft and also really chaotic games like Elden Ring. My all-time favorite is The Witcher 3: Wild Hunt.',
   },
 ];
