@@ -1,8 +1,13 @@
 export const experience = [
   {
+    company: 'SpotDraft',
+    title: 'Senior Software Engineer',
+    duration: 'November 2025 - Present',
+  },
+  {
     company: 'Razorpay',
     title: 'Senior Frontend Engineer',
-    duration: 'April 2025 - Present',
+    duration: 'April 2025 - November 2025',
   },
   {
     company: 'Razorpay',
