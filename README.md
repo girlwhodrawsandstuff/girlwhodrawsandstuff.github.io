@@ -1,51 +1,35 @@
-# girlwhodrawsandstuff
-# React + TypeScript + Vite
+# girlwhodrawsandstuff.github.io
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website for Varsha Singh — Senior Frontend Engineer at Razorpay, based in Bangalore, India.
 
-Currently, two official plugins are available:
+## What's inside
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The site is a single-page React app with three sections:
 
-## Expanding the ESLint configuration
+- **Portfolio** — a showcase of projects and work
+- **Experience** — professional history, education, and certifications
+- **Hobbies** — a peek at life outside of code (polymer clay, crocheting, cats)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Tech stack
 
-- Configure the top-level `parserOptions` property like this:
+- React 18 + TypeScript
+- Vite
+- Tailwind CSS
+- React Router
+- Deployed via GitHub Pages
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
+## Running locally
+
+```bash
+npm install
+npm run dev
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Deploying
 
-```js
-// eslint.config.js
-import react from "eslint-plugin-react";
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: "18.3" } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs["jsx-runtime"].rules,
-  },
-});
+```bash
+npm run build
+npm run deploy
 ```
+
+Deploys the `dist` folder to the `gh-pages` branch, served at [girlwhodrawsandstuff.github.io](https://girlwhodrawsandstuff.github.io).
